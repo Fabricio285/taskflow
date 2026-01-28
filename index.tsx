@@ -1,7 +1,8 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+// Añadimos la extensión .tsx para ayudar al navegador en entornos estáticos
+import App from './App.tsx';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
